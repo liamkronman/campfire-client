@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App:focus {
+  outline: none;
+}
+
+.campfire-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 60px;
+  font-weight: bold;
+  color: #F35B22;
+  padding-top: 15vh;
+}
+
+.campfire-subtitle {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+
+.campname-input {
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 25px;
+  height: 3.5rem;
+  width: 20rem;
+  background-color: #F8F3F3;
+  border: 3px solid #585555;
+  border-radius: 16px;
+  outline: none;
+}
+
+.text-body {
+  animation: initialFadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes initialFadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.campfire-input-instruction {
+  color: white;
+  margin-right: 6rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 17px;
+  animation: instructFadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes instructFadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.footer {
+  position: fixed;
+  bottom: 2vh;
+  text-align: center;
+  width: 100%;
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.campfire-welcome-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  padding-top: 15vh;
+}
+
+.the-fire {
+  height: 45vh;
+  margin-top: 10vh;
+}
+
+.campfire-message {
+  font-family: 'Space Mono', monospace;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  min-height: 6vh;
+}
+
+.message-author {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: purple;
+}
+
+.campfire-welcome-direction {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: grey;
+}
+
+.invalid-campname {
+  color: red;
+  margin-right: 6rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 17px;
+  animation: instructFadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}

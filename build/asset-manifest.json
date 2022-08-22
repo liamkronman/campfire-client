@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d18714a.css",
+    "main.js": "/static/js/main.3370b1e1.js",
+    "static/js/787.3ef3e916.chunk.js": "/static/js/787.3ef3e916.chunk.js",
+    "static/media/campfire-background-mac.png": "/static/media/campfire-background-mac.2be5519e82872f25654f.png",
+    "static/media/thefire.png": "/static/media/thefire.72f2bf2d3c65cf6cf095.png",
+    "static/media/thefire_2.png": "/static/media/thefire_2.a48b8f5ff007ed3f84cb.png",
+    "index.html": "/index.html",
+    "main.0d18714a.css.map": "/static/css/main.0d18714a.css.map",
+    "main.3370b1e1.js.map": "/static/js/main.3370b1e1.js.map",
+    "787.3ef3e916.chunk.js.map": "/static/js/787.3ef3e916.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d18714a.css",
+    "static/js/main.3370b1e1.js"
+  ]
+}
